@@ -1,0 +1,59 @@
+@import url(utility.css);
+
+.example {
+    width: 100%;
+    height: 85px;
+
+    background-color: gold;
+
+    color: white;
+
+    justify-content: space-evenly;
+}
+
+.example_style_contradiction {
+    width: 50%;
+    height: 60px;
+
+    background-color: darkblue;
+
+    border: 1px solid grey;
+    
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.example_class_contradiction {
+    width: 25%;
+    height: 50px;
+
+    background-color: greenyellow;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.styleAttribute_contracdiction {
+    width: 12.5%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: purple;
+}
+
+.styleAttribute_contracdictionII {
+    width: 6.75%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

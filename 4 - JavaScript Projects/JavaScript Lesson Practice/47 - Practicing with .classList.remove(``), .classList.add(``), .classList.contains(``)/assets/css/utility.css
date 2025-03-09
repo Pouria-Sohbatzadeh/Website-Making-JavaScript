@@ -1,0 +1,34 @@
+.flex {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.margin_t {
+    margin-top: 20px;
+}
+
+.red_BorderBg {
+    border: 1px solid red !important;
+
+    background-color: rgb(156, 19, 1) !important;
+}
+
+.brownText {
+    color: white !important;
+}
+
+.greyBg {
+    background-color: grey;
+}
+
+.checkShape{
+    height: 30px;
+    width: 120px;
+
+    background-color: pink;
+
+    color: gold;
+}

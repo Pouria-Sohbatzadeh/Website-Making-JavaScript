@@ -1,0 +1,6 @@
+.div--border {
+    height: 200px;
+    width: 400px;
+
+    border: 1px solid rgb(255, 251, 0);
+}

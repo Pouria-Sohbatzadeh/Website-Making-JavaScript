@@ -1,0 +1,58 @@
+@import url(reset.css);
+
+.header__menuHolder {
+    position: relative;
+}
+
+.header__menuInput {
+    position: absolute;
+
+    height: 0;
+    width: 0;
+    
+    opacity: 0;
+
+    z-index: 10;
+}
+
+.header__menuLabel {
+    cursor: pointer;
+
+    position: relative;
+
+    z-index: 10;
+}
+
+.header__menu {
+
+    /* Turn display: none to display: flex */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100px;
+    height: 200px;
+
+    background-color: grey;
+
+    color: rgb(3, 42, 151);
+
+    position: relative;
+
+    z-index: 10;
+}
+
+.overlay {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(255, 0, 0, 0.603);
+
+    /* Turn this to flex in JS */
+    display: none;
+}

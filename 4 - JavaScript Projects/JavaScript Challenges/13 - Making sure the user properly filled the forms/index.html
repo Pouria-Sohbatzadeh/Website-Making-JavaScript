@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13 - Making sure the user properly filled the forms</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+    <!-- forms -->
+    <section class="forms">
+
+        <!-- Name -->
+        <div class="forms__field">
+
+            <input type="text" placeholder="Enter your Name" class="forms__name input_form">
+
+            <!-- Fail massage -->
+            <span class="forms__error_name error_massage">Name isn't valid</span>
+
+        </div>
+
+        <!-- Phone Number -->
+        <div class="forms__field">
+
+            <div class="forms__phone_field">
+
+                <!-- The Phone number form -->
+                <input type="tel" placeholder="Enter your Phone Number" class="forms__phone input_form">
+
+                <!-- Iranian designation -->
+                <span class="forms__phone_designation">+98</span>
+
+            </div>
+           
+            <!-- Fail massage -->
+            <span class="forms__error_phoneNum error_massage">Phone Number not valid</span>
+        </div>
+        
+        <!-- Email -->
+        <div class="forms__field">
+            <input type="email" placeholder="Enter your Email" class="forms__email input_form">
+            <!-- Fail massage -->
+            <span class="forms__error_email error_massage">Email not valid</span>
+        </div>
+        
+        <!-- Password -->
+        <div class="forms__passwords_field">
+            
+            <div class="forms__field">
+                <!-- Initial -->
+                <input type="password" placeholder="Enter your Password" class="forms__password input_form">
+            
+                <!-- Repeat -->
+                <input type="password" placeholder="Repeat your Password" class="forms__password_repeat input_form">
+            </div>
+            
+            
+            <!-- Fail massage -->
+            <span class="forms__error_password error_massage">Passwrod not repeated Properly</span>
+        </div>
+
+        <button class="forms__submit">Send</button>
+    </section>
+
+    
+    
+<script src="assets/JS/script.js"></script>
+</body>
+</html>
